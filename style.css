@@ -1,0 +1,238 @@
+body {
+    margin: -1px;
+    padding: -1px;
+    background-color: black; 
+    color: white;
+}
+
+div.maincontent {
+    height: 700px;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+
+div.navbar {
+    display: flex ;
+    justify-content: space-around;
+    align-items: center ; 
+    background: rgba(0,0,0, 0.6);
+}
+
+div.navbar a {
+    color: white ;
+    margin: -90px ;
+}
+
+div.navbar a.join {
+    padding: 10px;
+    border-radius: 10px ;
+    border: 2px solid white ;
+    background-color: transparent ;
+    color: white ;
+}
+
+div.details {
+    text-align: center ;
+    color:white ;
+   padding-top: 150px ;
+}
+
+div.details button {
+     padding: 10px;
+    border-radius: 10px ;
+    border: 2px solid white ;
+    background-color: white ;
+    color: darkturquoise;
+}
+
+div.maingame {
+    display:flex ;
+    justify-content: center;
+    width: 60% ;
+    max-width: auto ;
+    background-color: black ;
+    color: white ;
+    padding: 50px ;
+    border-radius: 20px ;
+    margin-top: 50px;
+    line-height: 30px ;
+    margin-left:100px ; 
+}
+
+div.maingame button {
+    padding: 10px;
+    border-radius: 10px ;
+    background-color: aqua;
+    color: white;
+    border: none ;
+}
+
+div.maingame img {
+    margin-right: -140px ;
+    border-radius: 20px
+}
+
+div.games {
+    display: flex ;
+    justify-content: center ;
+}
+
+div.games div {
+    margin: 20px ; 
+}
+
+h1 {
+    justify-content: center ;
+}
+
+div.posts{
+    display: flex ;
+    width: 70%;
+   margin: auto ;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+div.post {
+    width: 70% ;
+    margin: 20px ;
+}
+
+div.post div.img {
+    background-image: url("image/post%201.jpg");
+    height: 220px ;
+    background-position: center ;
+    background-size: cover ;
+    width: 100% ;
+    background-repeat: no-repeat;
+    border-radius: 20px ;
+}
+
+div.postscontent {
+    text-align: center
+}
+
+div.test {
+    text-align: center ;
+}
+
+div.testy {
+    display: flex ;
+    width: 70%;
+    justify-content: center;
+    text-align: center ;
+    margin: auto ;
+}
+
+div.test1 {
+    width: 100px ;
+    background-color: black;
+    height: 100px ;
+    margin-left: 50px  ;
+    text-align: center ;
+    margin: auto ;
+}
+
+div.test2 {
+    width: 100px ;
+    background-color: black;
+    height: 100px ;
+    margin-left: 50px ;
+    text-align: center ;
+    margin: auto ;
+}
+
+div.testy div.man {
+    width: 100px ;
+    height: 100px ;
+    border-radius: 100px;
+    background-image: url(image/bussiness-man.png) ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+
+div.testy div.woman {
+    width: 100px ;
+    height: 100px ;
+    border-radius: 100px ;
+    background-image: url(image/businesswoman.png);
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px
+}
+
+.price {
+    width: 30%;
+    background-color: #222333; 
+    color: white;
+    margin: 8px; 
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 1px solid #3d3e51; 
+}
+
+.planprice {
+    background-color: #3bc6b6; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.planprice h3 {
+    margin: 0;
+}
+
+.joinform {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+}
+
+.joinform .image {
+    width: 35%;
+}
+
+.joinform .form {
+    width: 65%;
+}
+
+.joinform .image {
+    background-image: url('/image/nirolfix-dawn-3659244_1920.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    padding: 15px;
+}
+
+
+form input, form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    display: block;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+    padding: 8px;
+    margin-top: 40px;
+    background-color:white; 
+    color:black;
+}
